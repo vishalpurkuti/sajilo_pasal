@@ -14,3 +14,9 @@ class ListView(View):
         products=Product.objects.all()
         context={"product_list":products}
         return render(request,'index.html',context)
+
+class DetailView(View):
+    def get(self,request,id):
+        product=Product.objects.get(id=id)
+        context={"product":product}
+        return render(request,'product_detail.html',context)
