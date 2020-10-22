@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f2f2f2;
+}
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.main_nav {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.nav-search-form {
+}
+.hero {
+  max-height: 60vh;
+  object-position: center;
+  object-fit: contain;
+}
+.nav-search {
+  border: 2px solid #ff4647;
+  border-bottom-right-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.nav-search-button {
+  border: 1px solid #ff4647;
+  background-color: #ff4647;
+  border-bottom-left-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+}
+.navbar-brand {
+  color: #ff4647 !important;
+  font-weight: 600;
+}
+.front_offer {
+  min-height: 100% !important;
+  max-height: 100% !important;
+}
+.front_offer img {
+  max-height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+.front_offer_title {
+  font-size: 1rem;
+  line-height: 96%;
+}
+.hero_slider img {
+  object-fit: contain;
+}
+.mart_main_list {
+  min-height: 285px;
+  font-size: 0.9rem;
+  line-height: 96%;
+}
+.main_side_banner {
+}
+.shop_wrapper {
+  width: 96%;
+  margin: 0 auto;
+}
+.shop_sale_card {
+  padding-left: 0 !important;
+}
+.shop_sale .card-title {
+  font-size: 0.9rem;
+  color: #202020;
+}
+.shop_sale .card-text {
+  line-height: 95%;
+  color: #fe4646;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.shop_sale .discount_price {
+  font-size: 0.8rem;
+  color: #20202099;
+}
+.shop_sale .discount_percentage {
+  font-size: 0.8rem;
+  color: #20202099;
+}
+.shop_sale .rating {
+  font-size: 0.7rem;
+  color: #20202099;
+}
+.shop_sale .rating_number {
+  color: #20202099;
+}
+.shop_sale .shop_sale_link {
+  text-decoration: none;
+}
+.shop_sale img {
+  max-height: 200px;
+  min-height: 200px;
+  object-fit: contain;
+  object-position: center;
+  box-sizing: border-box;
+}
+.shop_sale .card-title {
+  height: 1.9rem;
+}
+.shop_sale {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+@media (max-width: 991px) {
+  .front_offer {
+    display: none;
+  }
+  .main_side_banner {
+    display: none;
+  }
+}
